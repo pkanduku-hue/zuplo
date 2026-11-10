@@ -21,9 +21,7 @@
           },
           "policies": {
             "inbound": [],
-            "outbound": [
-              "custom-code-outbound"
-            ]
+            "outbound": []
           }
         },
         "operationId": "rest-9aea57aa"
@@ -45,9 +43,7 @@
           },
           "policies": {
             "inbound": [],
-            "outbound": [
-              "custom-code-outbound-1"
-            ]
+            "outbound": []
           }
         },
         "operationId": "rest-4d19a02e"
