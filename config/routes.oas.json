@@ -15,11 +15,9 @@
         "x-zuplo-route": {
           "corsPolicy": "none",
           "handler": {
-            "export": "urlForwardHandler",
-            "module": "$import(@zuplo/runtime)",
-            "options": {
-              "baseUrl": "https://echo.zuplo.io"
-            }
+            "export": "default",
+            "module": "$import(./modules/custom-code-outbound)",
+            "options": {}
           },
           "policies": {
             "inbound": [],
@@ -41,11 +39,9 @@
         "x-zuplo-route": {
           "corsPolicy": "none",
           "handler": {
-            "export": "urlForwardHandler",
-            "module": "$import(@zuplo/runtime)",
-            "options": {
-              "baseUrl": "https://echo.zuplo.io"
-            }
+            "export": "default",
+            "module": "$import(./modules/custom-code-outbound)",
+            "options": {}
           },
           "policies": {
             "inbound": [],
