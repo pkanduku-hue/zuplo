@@ -38,7 +38,7 @@
           "corsPolicy": "none",
           "handler": {
             "export": "default",
-            "module": "$import(./modules/custom-code-outbound)",
+            "module": "$import(./modules/custom-code-outbound-response2)",
             "options": {}
           },
           "policies": {
