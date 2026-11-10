@@ -1,0 +1,30 @@
+{
+  "policies": [
+    {
+      "handler": {
+        "challenge_type": "1",
+        "message": "Success! This is Response Type 1",
+        "data": {
+          "skill": "Akamai Functions Integration",
+          "level": "Beginner"
+        },
+        "timestamp": "{{$timestamp}}"
+      },
+      "name": "custom-code-outbound",
+      "policyType": "custom-code-outbound"
+    },
+    {
+      "handler": {
+        "challenge_type": "2",
+        "message": "Success! This is Response Type 2",
+        "data": {
+          "skill": "Advanced Header Routing",
+          "level": "Advanced"
+        },
+        "timestamp": "{{$timestamp}}"
+      },
+      "name": "custom-code-outbound-1",
+      "policyType": "custom-code-outbound"
+    }
+  ]
+}
